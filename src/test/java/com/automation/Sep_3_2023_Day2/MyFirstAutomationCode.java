@@ -1,4 +1,4 @@
-package com.automation.Sep3_2023_Day2;
+package com.automation.Sep_3_2023_Day2;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
