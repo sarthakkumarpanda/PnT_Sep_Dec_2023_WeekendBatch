@@ -1,4 +1,4 @@
-package com.java.Sep_3_2023_Day2;
+package com.java.Sep_3_2023_Day2_History_Use_of_Java;
 
 public class What_is_Java {
 	

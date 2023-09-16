@@ -1,4 +1,4 @@
-package com.java.Sep_2_2023_Day1;
+package com.java.Sep_2_2023_Day1_Introduction;
 
 public class MyFirstJavaProgram {
 
