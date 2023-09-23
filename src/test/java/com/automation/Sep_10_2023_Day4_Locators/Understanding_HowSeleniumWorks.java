@@ -1,4 +1,4 @@
-package com.automation.Sep_10_2023_Day4;
+package com.automation.Sep_10_2023_Day4_Locators;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WindowType;
