@@ -1,0 +1,49 @@
+html[attribute = value]
+html#idvalue
+html.classname
+html.value1.value2.value3
+
+
+input#login1
+input#password
+
+is with class
+
+a.bmailicon.relative
+
+---------------------------------------
+
+html[attribute *= value]
+a[class *= signin]
+--------------------------------------
+
+html[attribute ^= startingvaluewhichdoesnotchange]
+a[class ^= sign]
+
+----------------------------------------
+
+html[attribute $= value]
+a[class $= gnin]
+
+----------------------------------------
+traverse between siblings is done by + symbol
+traverse between parent to child is done by >
+
+li.logo>a>img
+div#banner_android + script + ins + nav#nav-website>ul>li>a>img
+
+p#signin_info>a:nth-child(1)
+p#signin_info>br:nth-child(2)
+p#signin_info>a:nth-child(3)
+
+p#signin_info>br:nth-of-type(1)
+p#signin_info>a:nth-of-type(1)
+p#signin_info>a:nth-of-type(2)
+
+you can use > to traverse between children or you can leave a blank space
+
+
+
+
+
+

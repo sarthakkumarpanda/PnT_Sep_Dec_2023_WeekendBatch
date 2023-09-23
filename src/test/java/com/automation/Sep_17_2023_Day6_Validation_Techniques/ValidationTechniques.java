@@ -27,8 +27,8 @@ public class ValidationTechniques {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://rediff.com");
-		System.out.println(driver.getTitle());
-		System.out.println(driver.getCurrentUrl()); 
+		System.out.println(driver.getTitle()); //Rediff.com: News | Rediffmail | Stock Quotes | Shopping
+		System.out.println(driver.getCurrentUrl()); //
 		
 		String actualTitle = driver.getTitle();
 		String expectedTitle = "Rediff.com: News | Rediffmail | Stock Quotes | Shopping";
