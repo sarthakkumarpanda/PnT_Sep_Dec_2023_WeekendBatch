@@ -1,0 +1,11 @@
+you know the functionality of the application
+That means you know the flow
+
+you need to validate your flow - This is Called Testing
+
+Developers use JUnit
+Testers will use TestNG
+
+TestNG can give very good reports
+TestNG is a framework in itself
+TestNG also acts as an execution engine
