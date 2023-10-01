@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.TestNG.Sep_24_2023_Day9_TestNG.HowNotToBeSkipped">
+      <class name="com.TestNG.Oct_01_2023_Day10_TestNG_ExcelSheet_DataProvider.TestCases">
         <methods>
-          <include name="logout"/>
-          <include name="login"/>
+          <include name="rediffLogin" invocation-numbers="3"/>
           <include name="tearDown"/>
-          <include name="setup"/>
         </methods>
-      </class> <!-- com.TestNG.Sep_24_2023_Day9_TestNG.HowNotToBeSkipped -->
+      </class> <!-- com.TestNG.Oct_01_2023_Day10_TestNG_ExcelSheet_DataProvider.TestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
