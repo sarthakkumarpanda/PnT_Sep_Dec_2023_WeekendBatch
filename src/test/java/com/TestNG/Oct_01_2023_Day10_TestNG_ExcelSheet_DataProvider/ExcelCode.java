@@ -15,6 +15,7 @@ public class ExcelCode {
 	//2. Make sure the sheetnames are correct
 	//3. Copy the Excel sheet and put it inside the package where you want to keep your code
 	//4. Make sure the Excel sheet is updated, then only paste it as mentioned in point 3
+	//5. Students please practice this 5 times - watch the video and do it
 	
 	public static FileInputStream ip;
 	public static XSSFWorkbook workbook;
