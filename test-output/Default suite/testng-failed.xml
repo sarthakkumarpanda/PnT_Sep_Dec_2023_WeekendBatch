@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.Oct_07_2023_Day11_ApplicationOfMethodsInAutomation.Program1">
+      <class name="com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions">
         <methods>
-          <include name="initializeBrowserAndOpenApplication"/>
+          <include name="verifySearchWithValidProduct"/>
+          <include name="tearDown"/>
+          <include name="searchProductSetup"/>
         </methods>
-      </class> <!-- com.automation.Oct_07_2023_Day11_ApplicationOfMethodsInAutomation.Program1 -->
+      </class> <!-- com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,57 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-07T14:06:22 GMT-04:00" name="Default suite" finished-at="2023-10-07T14:06:22 GMT-04:00" duration-ms="51">
+  <suite started-at="2023-10-08T14:47:16 GMT-04:00" name="Default suite" finished-at="2023-10-08T14:47:35 GMT-04:00" duration-ms="19912">
     <groups>
     </groups>
-    <test started-at="2023-10-07T14:06:22 GMT-04:00" name="Default test" finished-at="2023-10-07T14:06:22 GMT-04:00" duration-ms="51">
-      <class name="com.automation.Oct_07_2023_Day11_ApplicationOfMethodsInAutomation.Program1">
-        <test-method signature="initializeBrowserAndOpenApplication(java.lang.String,java.lang.String)[pri:0, instance:com.automation.Oct_07_2023_Day11_ApplicationOfMethodsInAutomation.Program1@750e2b97]" started-at="2023-10-07T14:06:22 GMT-04:00" name="initializeBrowserAndOpenApplication" finished-at="2023-10-07T14:06:22 GMT-04:00" duration-ms="0" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Cannot inject @Test annotated Method [initializeBrowserAndOpenApplication] with [class java.lang.String, class java.lang.String].
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Cannot inject @Test annotated Method [initializeBrowserAndOpenApplication] with [class java.lang.String, class java.lang.String].
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:436)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:350)
-at org.testng.internal.Parameters.createParameters(Parameters.java:693)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
-at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
-at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+    <test started-at="2023-10-08T14:47:16 GMT-04:00" name="Default test" finished-at="2023-10-08T14:47:35 GMT-04:00" duration-ms="19912">
+      <class name="com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions">
+        <test-method is-config="true" signature="searchProductSetup()[pri:0, instance:com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions@2a265ea9]" started-at="2023-10-08T14:47:16 GMT-04:00" name="searchProductSetup" finished-at="2023-10-08T14:47:22 GMT-04:00" duration-ms="6204" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initializeBrowserAndOpenApplication -->
-      </class> <!-- com.automation.Oct_07_2023_Day11_ApplicationOfMethodsInAutomation.Program1 -->
+        </test-method> <!-- searchProductSetup -->
+        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions@2a265ea9]" started-at="2023-10-08T14:47:22 GMT-04:00" name="verifySearchWithValidProduct" finished-at="2023-10-08T14:47:23 GMT-04:00" duration-ms="866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions@2a265ea9]" started-at="2023-10-08T14:47:23 GMT-04:00" name="tearDown" finished-at="2023-10-08T14:47:23 GMT-04:00" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="searchProductSetup()[pri:0, instance:com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions@2a265ea9]" started-at="2023-10-08T14:47:23 GMT-04:00" name="searchProductSetup" finished-at="2023-10-08T14:47:28 GMT-04:00" duration-ms="5100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductSetup -->
+        <test-method signature="verifySearchWithInvalidProduct()[pri:2, instance:com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions@2a265ea9]" started-at="2023-10-08T14:47:28 GMT-04:00" name="verifySearchWithInvalidProduct" finished-at="2023-10-08T14:47:29 GMT-04:00" duration-ms="1292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithInvalidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions@2a265ea9]" started-at="2023-10-08T14:47:29 GMT-04:00" name="tearDown" finished-at="2023-10-08T14:47:29 GMT-04:00" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="searchProductSetup()[pri:0, instance:com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions@2a265ea9]" started-at="2023-10-08T14:47:29 GMT-04:00" name="searchProductSetup" finished-at="2023-10-08T14:47:35 GMT-04:00" duration-ms="5476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductSetup -->
+        <test-method signature="verifySearchWithNoProduct()[pri:3, instance:com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions@2a265ea9]" started-at="2023-10-08T14:47:35 GMT-04:00" name="verifySearchWithNoProduct" finished-at="2023-10-08T14:47:35 GMT-04:00" duration-ms="630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithNoProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions@2a265ea9]" started-at="2023-10-08T14:47:35 GMT-04:00" name="tearDown" finished-at="2023-10-08T14:47:35 GMT-04:00" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

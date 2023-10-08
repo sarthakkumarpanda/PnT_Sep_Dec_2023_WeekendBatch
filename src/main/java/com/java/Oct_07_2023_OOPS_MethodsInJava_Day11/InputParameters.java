@@ -1,4 +1,4 @@
-package com.java.Oct_07_2023_OOPS_Pillar1_Day11;
+package com.java.Oct_07_2023_OOPS_MethodsInJava_Day11;
 
 public class InputParameters {
 
