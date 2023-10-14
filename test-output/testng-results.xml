@@ -1,49 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-08T14:47:16 GMT-04:00" name="Default suite" finished-at="2023-10-08T14:47:35 GMT-04:00" duration-ms="19912">
+  <suite started-at="2023-10-14T12:57:27 GMT-04:00" name="Default suite" finished-at="2023-10-14T12:57:56 GMT-04:00" duration-ms="29291">
     <groups>
     </groups>
-    <test started-at="2023-10-08T14:47:16 GMT-04:00" name="Default test" finished-at="2023-10-08T14:47:35 GMT-04:00" duration-ms="19912">
-      <class name="com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions">
-        <test-method is-config="true" signature="searchProductSetup()[pri:0, instance:com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions@2a265ea9]" started-at="2023-10-08T14:47:16 GMT-04:00" name="searchProductSetup" finished-at="2023-10-08T14:47:22 GMT-04:00" duration-ms="6204" status="PASS">
+    <test started-at="2023-10-14T12:57:27 GMT-04:00" name="Default test" finished-at="2023-10-14T12:57:56 GMT-04:00" duration-ms="29291">
+      <class name="com.TestNG.Oct_14_Day13_TestNG_Repeat.Assignment1_RediffLogin">
+        <test-method is-config="true" signature="loginRediff()[pri:0, instance:com.TestNG.Oct_14_Day13_TestNG_Repeat.Assignment1_RediffLogin@6892b3b6]" started-at="2023-10-14T12:57:27 GMT-04:00" name="loginRediff" finished-at="2023-10-14T12:57:33 GMT-04:00" duration-ms="5634" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchProductSetup -->
-        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions@2a265ea9]" started-at="2023-10-08T14:47:22 GMT-04:00" name="verifySearchWithValidProduct" finished-at="2023-10-08T14:47:23 GMT-04:00" duration-ms="866" status="PASS">
+        </test-method> <!-- loginRediff -->
+        <test-method signature="verifyLoginWithValidCredentials()[pri:1, instance:com.TestNG.Oct_14_Day13_TestNG_Repeat.Assignment1_RediffLogin@6892b3b6]" started-at="2023-10-14T12:57:33 GMT-04:00" name="verifyLoginWithValidCredentials" finished-at="2023-10-14T12:57:38 GMT-04:00" duration-ms="5071" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySearchWithValidProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions@2a265ea9]" started-at="2023-10-08T14:47:23 GMT-04:00" name="tearDown" finished-at="2023-10-08T14:47:23 GMT-04:00" duration-ms="63" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="searchProductSetup()[pri:0, instance:com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions@2a265ea9]" started-at="2023-10-08T14:47:23 GMT-04:00" name="searchProductSetup" finished-at="2023-10-08T14:47:28 GMT-04:00" duration-ms="5100" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchProductSetup -->
-        <test-method signature="verifySearchWithInvalidProduct()[pri:2, instance:com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions@2a265ea9]" started-at="2023-10-08T14:47:28 GMT-04:00" name="verifySearchWithInvalidProduct" finished-at="2023-10-08T14:47:29 GMT-04:00" duration-ms="1292" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearchWithInvalidProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions@2a265ea9]" started-at="2023-10-08T14:47:29 GMT-04:00" name="tearDown" finished-at="2023-10-08T14:47:29 GMT-04:00" duration-ms="100" status="PASS">
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Oct_14_Day13_TestNG_Repeat.Assignment1_RediffLogin@6892b3b6]" started-at="2023-10-14T12:57:38 GMT-04:00" name="tearDown" finished-at="2023-10-14T12:57:38 GMT-04:00" duration-ms="195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="searchProductSetup()[pri:0, instance:com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions@2a265ea9]" started-at="2023-10-08T14:47:29 GMT-04:00" name="searchProductSetup" finished-at="2023-10-08T14:47:35 GMT-04:00" duration-ms="5476" status="PASS">
+        <test-method is-config="true" signature="loginRediff()[pri:0, instance:com.TestNG.Oct_14_Day13_TestNG_Repeat.Assignment1_RediffLogin@6892b3b6]" started-at="2023-10-14T12:57:38 GMT-04:00" name="loginRediff" finished-at="2023-10-14T12:57:42 GMT-04:00" duration-ms="4347" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchProductSetup -->
-        <test-method signature="verifySearchWithNoProduct()[pri:3, instance:com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions@2a265ea9]" started-at="2023-10-08T14:47:35 GMT-04:00" name="verifySearchWithNoProduct" finished-at="2023-10-08T14:47:35 GMT-04:00" duration-ms="630" status="PASS">
+        </test-method> <!-- loginRediff -->
+        <test-method signature="verifyLoginWithValidUsernameInvalidPassword()[pri:2, instance:com.TestNG.Oct_14_Day13_TestNG_Repeat.Assignment1_RediffLogin@6892b3b6]" started-at="2023-10-14T12:57:42 GMT-04:00" name="verifyLoginWithValidUsernameInvalidPassword" finished-at="2023-10-14T12:57:43 GMT-04:00" duration-ms="915" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySearchWithNoProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions@2a265ea9]" started-at="2023-10-08T14:47:35 GMT-04:00" name="tearDown" finished-at="2023-10-08T14:47:35 GMT-04:00" duration-ms="140" status="PASS">
+        </test-method> <!-- verifyLoginWithValidUsernameInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Oct_14_Day13_TestNG_Repeat.Assignment1_RediffLogin@6892b3b6]" started-at="2023-10-14T12:57:43 GMT-04:00" name="tearDown" finished-at="2023-10-14T12:57:43 GMT-04:00" duration-ms="127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions -->
+        <test-method is-config="true" signature="loginRediff()[pri:0, instance:com.TestNG.Oct_14_Day13_TestNG_Repeat.Assignment1_RediffLogin@6892b3b6]" started-at="2023-10-14T12:57:43 GMT-04:00" name="loginRediff" finished-at="2023-10-14T12:57:47 GMT-04:00" duration-ms="3469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginRediff -->
+        <test-method signature="verifyLoginWithInvalidUsernameValidPassword()[pri:3, instance:com.TestNG.Oct_14_Day13_TestNG_Repeat.Assignment1_RediffLogin@6892b3b6]" started-at="2023-10-14T12:57:47 GMT-04:00" name="verifyLoginWithInvalidUsernameValidPassword" finished-at="2023-10-14T12:57:48 GMT-04:00" duration-ms="806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidUsernameValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Oct_14_Day13_TestNG_Repeat.Assignment1_RediffLogin@6892b3b6]" started-at="2023-10-14T12:57:48 GMT-04:00" name="tearDown" finished-at="2023-10-14T12:57:48 GMT-04:00" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="loginRediff()[pri:0, instance:com.TestNG.Oct_14_Day13_TestNG_Repeat.Assignment1_RediffLogin@6892b3b6]" started-at="2023-10-14T12:57:48 GMT-04:00" name="loginRediff" finished-at="2023-10-14T12:57:51 GMT-04:00" duration-ms="3537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginRediff -->
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:4, instance:com.TestNG.Oct_14_Day13_TestNG_Repeat.Assignment1_RediffLogin@6892b3b6]" started-at="2023-10-14T12:57:51 GMT-04:00" name="verifyLoginWithInvalidCredentials" finished-at="2023-10-14T12:57:52 GMT-04:00" duration-ms="779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Oct_14_Day13_TestNG_Repeat.Assignment1_RediffLogin@6892b3b6]" started-at="2023-10-14T12:57:52 GMT-04:00" name="tearDown" finished-at="2023-10-14T12:57:52 GMT-04:00" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="loginRediff()[pri:0, instance:com.TestNG.Oct_14_Day13_TestNG_Repeat.Assignment1_RediffLogin@6892b3b6]" started-at="2023-10-14T12:57:52 GMT-04:00" name="loginRediff" finished-at="2023-10-14T12:57:56 GMT-04:00" duration-ms="3787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginRediff -->
+        <test-method signature="verifyLoginWithNoCredentials()[pri:5, instance:com.TestNG.Oct_14_Day13_TestNG_Repeat.Assignment1_RediffLogin@6892b3b6]" started-at="2023-10-14T12:57:56 GMT-04:00" name="verifyLoginWithNoCredentials" finished-at="2023-10-14T12:57:56 GMT-04:00" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithNoCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestNG.Oct_14_Day13_TestNG_Repeat.Assignment1_RediffLogin@6892b3b6]" started-at="2023-10-14T12:57:56 GMT-04:00" name="tearDown" finished-at="2023-10-14T12:57:56 GMT-04:00" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestNG.Oct_14_Day13_TestNG_Repeat.Assignment1_RediffLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

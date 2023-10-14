@@ -32,8 +32,12 @@ public class HeadlessMode_ChromeOptions {
 		driver.findElement(By.name("search")).sendKeys("HP");
 		driver.findElement(By.cssSelector("button.btn.btn-default.btn-lg")).click();
 	}
-	@Test(priority=2)
+	@Test(priority=2, invocationCount = 5)
 	public void verifySearchWithInvalidProduct() {
+		
+		//may be one of the webelement is inconsistent. Sometimes it gives accurate results and sometimes it does not
+		//we chose best of 2 out of 5 - at least we should run 5 times
+		//this is like failsafe in case a particular WebElement(s) is/are misbehaving
 		driver.findElement(By.name("search")).sendKeys("DELL");
 		driver.findElement(By.cssSelector("button.btn.btn-default.btn-lg")).click();
 	}

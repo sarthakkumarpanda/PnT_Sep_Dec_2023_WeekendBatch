@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions">
+      <class name="com.TestNG.Oct_14_Day13_TestNG_Repeat.Assignment1_RediffLogin">
         <methods>
-          <include name="verifySearchWithValidProduct"/>
+          <include name="verifyLoginWithInvalidUsernameValidPassword"/>
           <include name="tearDown"/>
-          <include name="searchProductSetup"/>
+          <include name="loginRediff"/>
         </methods>
-      </class> <!-- com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions -->
+      </class> <!-- com.TestNG.Oct_14_Day13_TestNG_Repeat.Assignment1_RediffLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
