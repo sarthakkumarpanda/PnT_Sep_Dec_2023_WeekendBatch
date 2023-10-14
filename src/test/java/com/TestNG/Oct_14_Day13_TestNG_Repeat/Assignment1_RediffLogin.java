@@ -65,7 +65,7 @@ public class Assignment1_RediffLogin {
 		String actualWarningMessage = driver.findElement(By.xpath("//div[@id = 'div_login_error']")).getText();
 		String expectedWarningMessage = "Temporary Issue. Please try again later. [#5002]";
 		
-		Assert.assertFalse(actualWarningMessage.contains(expectedWarningMessage));
+		Assert.assertTrue(actualWarningMessage.contains(expectedWarningMessage));
 	}
 	
 	@Test(priority=4)
@@ -87,7 +87,7 @@ public class Assignment1_RediffLogin {
 		String expectecAlertMessage = "Please enter a valid user name";
 		
 		Assert.assertEquals(actualAlertMessage, expectecAlertMessage);
-		alert.dismiss();
+		alert.accept();
 	
 		
 	}
