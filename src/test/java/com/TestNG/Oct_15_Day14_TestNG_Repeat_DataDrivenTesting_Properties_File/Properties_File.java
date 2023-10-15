@@ -1,4 +1,4 @@
-package com.TestNG.Oct_15_Day14_TestNG_Repeat_DataDrivenTesting;
+package com.TestNG.Oct_15_Day14_TestNG_Repeat_DataDrivenTesting_Properties_File;
 
 public class Properties_File {
 	

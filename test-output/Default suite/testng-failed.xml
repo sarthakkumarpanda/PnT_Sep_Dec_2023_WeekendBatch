@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNG.Oct_14_Day13_TestNG_Repeat.Assignment2_Register_TN">
+      <class name="com.TestNG.Oct_15_Day14_TestNG_Repeat_DataDrivenTesting_ExcelSheet.ExcelCode">
         <methods>
-          <include name="verifyingRegisterWithAllFields"/>
-          <include name="tearDown"/>
-          <include name="registerSetup"/>
+          <include name="loginTNTest" invocation-numbers="7"/>
         </methods>
-      </class> <!-- com.TestNG.Oct_14_Day13_TestNG_Repeat.Assignment2_Register_TN -->
+      </class> <!-- com.TestNG.Oct_15_Day14_TestNG_Repeat_DataDrivenTesting_ExcelSheet.ExcelCode -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
