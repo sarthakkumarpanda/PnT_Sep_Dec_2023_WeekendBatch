@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test name="Test">
+		<parameter name="url"        value="https://tutorialsninja.com/demo" />
+		<parameter name="email"      value="seleniumpanda@gmail.com" />
+		<parameter name="password"   value="Selenium@123" />
+
+		<classes>
+			<class
+				name="com.TestNG.Oct_15_Day14_TestNG_testng.xml.Parameterization_Using_TestNGxml_file" />
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
