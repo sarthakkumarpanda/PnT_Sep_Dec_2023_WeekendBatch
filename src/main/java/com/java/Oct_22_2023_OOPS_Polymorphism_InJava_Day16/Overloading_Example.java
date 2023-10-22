@@ -6,27 +6,29 @@ public class Overloading_Example {
 		Overloading_Example ref = new Overloading_Example();
 		ref.add();
 		ref.add(10, 20);
-	
+		ref.add(1.1, 2.2);
+		ref.add("Hello", "World");
 
 	}
-	
+
 	public void add() {
 		System.out.println(10 + 20);
 	}
-	
-	public int add(int a, int b) {
+
+	public void add(int a, int b) {
 		int c = a + b;
-		return c;
+		System.out.println(c);
+
 	}
-	
-	public double add(double a, double b) {
+
+	public void add(double a, double b) {
 		double c = a + b;
-		return c;
+		System.out.println(c);
 	}
-	
-	public String add(String a, String b) {
+
+	public void add(String a, String b) {
 		String c = a + b;
-		return c;
+		System.out.println(c);
 	}
 
 }
