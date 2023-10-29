@@ -7,7 +7,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.java.Sep_30_Day9_SpecialClasses.Util;
+import com.java.Sep_30_Day9_SpecialClasses_Date_Class.Util;
 
 public class RegisterTest extends TestBase {
 	

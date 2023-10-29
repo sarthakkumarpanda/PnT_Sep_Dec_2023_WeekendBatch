@@ -4,7 +4,8 @@ import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import com.java.Sep_30_Day9_SpecialClasses.Util;
+
+import com.java.Sep_30_Day9_SpecialClasses_Date_Class.Util;
 
 public class ApplyingInAutomation {
 	

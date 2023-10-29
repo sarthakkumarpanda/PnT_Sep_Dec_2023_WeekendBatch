@@ -1,4 +1,4 @@
-package com.java.Oct_28_Day17_SpecialClasses;
+package com.java.Oct_28_Day17_SpecialClasses_Scanner_Class;
 
 import java.util.Scanner;
 
