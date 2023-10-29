@@ -35,7 +35,9 @@ public class Parameterization_Using_TestNGxml_file {
 		WebElement editYourAccountInfoLink = driver.findElement(By.linkText("Edit your account information"));
 		WebElement logoutLink = driver.findElement(By.linkText("Logout"));
 		
-		Assert.assertTrue(editYourAccountInfoLink.isDisplayed() && logoutLink.isDisplayed());
+		//Assert.assertTrue(editYourAccountInfoLink.isDisplayed() && logoutLink.isDisplayed());
+		
+		Assert.assertFalse(editYourAccountInfoLink.isDisplayed() && logoutLink.isDisplayed()); //deliberately failing
 		
 	}
 	

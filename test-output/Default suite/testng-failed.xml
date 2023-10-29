@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNG.Oct_15_Day14_TestNG_testng.xml.Parameterization_Using_TestNGxml_file">
+      <class name="com.TestNG.Oct_29_Day18_Retry_Failed_TestCases.LoginTest">
         <methods>
-          <include name="verifyLoginWithValidCredentials" invocation-numbers="0"/>
+          <include name="loginValidationCorrectCredentials"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.TestNG.Oct_15_Day14_TestNG_testng.xml.Parameterization_Using_TestNGxml_file -->
+      </class> <!-- com.TestNG.Oct_29_Day18_Retry_Failed_TestCases.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

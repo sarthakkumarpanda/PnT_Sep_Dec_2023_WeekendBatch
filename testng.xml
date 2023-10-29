@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.automation.Oct_07_2023_Day11_ApplicationOfMethodsInAutomation.Program1"/>
+      <class name="com.TestNG.Oct_29_2023_Day18_TestNG_SuiteFiles_Regression_Suite.Regression_SearchProductTest"/>
+      <class name="com.TestNG.Sep_30_2023_Day9_TestNG.ClassAssignment_Register"/>
+      <class name="com.TestNG.Oct_29_2023_Day18_TestNG_SuiteFiles_Smoke_Suite.Smoke_LoginTest"/>
+      <class name="com.TestNG.Oct_08_Day12_TestNG_Repeat.HeadlessMode_ChromeOptions"/>
+      <class name="com.TestNG.Oct_08_Day12_TestNG_Repeat.Annotation_Of_TestNG"/>
+      <class name="com.TestNG.Oct_22_Day16_Application_Of_OOPs_Interface.AutomationCode"/>
+      <class name="com.TestNG.Sep_24_2023_Day8_TestNGBasics.Class_Assignment"/>
+      <class name="com.TestNG.Oct_15_Day14_TestNG_Repeat_DataDrivenTesting_DataProvider.DataProvider_TN_SameClass"/>
+      <class name="com.TestNG.Oct_15_Day14_TestNG_testng.xml.RegisterTest"/>
+      <class name="com.TestNG.Sep_30_2023_Day9_TestNG.HowNotToBeSkipped"/>
+      <class name="com.TestNG.Oct_15_Day14_TestNG_Repeat_DataDrivenTesting_DataProvider.TestCases_SeparateClass"/>
+      <class name="com.TestNG.Sep_24_2023_Day8_TestNGBasics.TriCombo_Annotations"/>
+      <class name="com.TestNG.Oct_08_Day12_TestNG_Repeat.WhyNotToIntroduceMainMethod"/>
+      <class name="com.java.Oct_22_2023_OOPS_Abstraction_Interface_InJava_Day16.Test_Execution"/>
+      <class name="com.TestNG.Sep_30_2023_Day9_TestNG.AssertionFailuresAndSkips"/>
+      <class name="com.TestNG.Oct_29_2023_Day18_TestNG_SuiteFiles_Regression_Suite.Regression_LoginTest"/>
+      <class name="com.TestNG.Oct_21_Day15_Application_Of_OOPs.SearchProductTest"/>
+      <class name="com.automation.Oct_14_2023_Alerts_PopUps.How_To_Handle_An_Alert"/>
+      <class name="com.TestNG.Oct_15_Day14_TestNG_Repeat_DataDrivenTesting_DataProvider.DataProvider_Rediff_SameClass"/>
+      <class name="com.TestNG.Oct_21_Day15_Application_Of_OOPs.RegisterTest"/>
+      <class name="com.TestNG.Oct_08_Day12_TestNG_Repeat.Application_And_Usage_of_Annotations"/>
+      <class name="com.TestNG.Oct_14_Day13_TestNG_Repeat.Assignment2_Register_TN"/>
+      <class name="com.TestNG.Oct_15_Day14_TestNG_Repeat_DataDrivenTesting_ExcelSheet.ExcelCode"/>
+      <class name="com.TestNG.Oct_29_2023_Day18_TestNG_Groups.Groups"/>
+      <class name="com.TestNG.Oct_14_Day13_TestNG_Repeat.Assertions_Basic_Concepts"/>
+      <class name="com.TestNG.Oct_14_Day13_TestNG_Repeat.Executing_A_Test_Case_Multiple_Times"/>
+      <class name="com.TestNG.Oct_29_2023_Day18_TestNG_SuiteFiles_Smoke_Suite.Smoke_RegisterTest"/>
+      <class name="com.TestNG.Sep_24_2023_Day8_TestNGBasics.Apply_TriCombo_Automation"/>
+      <class name="com.TestNG.Oct_22_Day16_Application_Of_OOPs_Encapsulation.LoginTest"/>
+      <class name="com.java.Oct_22_2023_OOPS_Abstraction_Interface_InJava_Day16.Conclusion"/>
+      <class name="com.TestNG.Oct_08_Day12_TestNG_Repeat.Assignment1"/>
+      <class name="com.TestNG.Oct_08_Day12_TestNG_Repeat.Assignment2"/>
+      <class name="com.TestNG.Oct_15_Day14_TestNG_Repeat_DataDrivenTesting_DataProvider.TestCase_In_AnotherClass"/>
+      <class name="com.TestNG.Oct_15_Day14_TestNG_testng.xml.LoginTest"/>
+      <class name="com.TestNG.Oct_08_Day12_TestNG_Repeat.Assignment3"/>
+      <class name="com.TestNG.Oct_01_2023_Day10_TestNG_DataProvider.DataProvider_TutorialsNinja"/>
+      <class name="com.TestNG.Oct_29_2023_Day18_TestNG_SuiteFiles_Sanity_Suite.Sanity_SearchProductTest"/>
+      <class name="com.TestNG.Oct_29_2023_Day18_TestNG_SuiteFiles_Regression_Suite.Regression_RegisterTest"/>
+      <class name="com.TestNG.Oct_08_Day12_TestNG_Repeat.Understanding_ChromeOptions"/>
+      <class name="com.TestNG.Oct_15_Day14_TestNG_testng.xml.Parameterization_Using_TestNGxml_file"/>
+      <class name="com.TestNG.Oct_08_Day12_TestNG_Repeat.Priority_Of_Execution"/>
+      <class name="com.TestNG.Oct_29_2023_Day18_TestNG_SuiteFiles_Sanity_Suite.Sanity_RegisterTest"/>
+      <class name="com.TestNG.Oct_01_2023_Day10_TestNG_DataProvider.TestCases_Only"/>
+      <class name="com.TestNG.Oct_14_Day13_TestNG_Repeat.Enabling_Disabling_Test_Case"/>
+      <class name="com.TestNG.Sep_24_2023_Day8_TestNGBasics.SettingPriority_TestCases"/>
+      <class name="com.TestNG.Oct_08_Day12_TestNG_Repeat.Speciality_Of_BeforeMethod_and_AfterMethod"/>
+      <class name="com.automation.Sep_30_2023_Day9_ApplicationOfStrings.ValidatingStringMethods"/>
+      <class name="com.TestNG.Sep_30_2023_Day9_TestNG.RunATestMultipleTimes"/>
+      <class name="com.TestNG.Oct_15_Day14_TestNG_Repeat_DataDrivenTesting_DataProvider.DataProvider_In_The_Same_Class_With_TestCase"/>
+      <class name="com.TestNG.Oct_15_Day14_TestNG_Repeat_DataDrivenTesting_Properties_File.RediffLogin_PropertiesFile"/>
+      <class name="com.TestNG.Oct_14_Day13_TestNG_Repeat.Dependency_Between_TestCases"/>
+      <class name="com.TestNG.Oct_15_Day14_TestNG_testng.xml.SearchProductTest"/>
+      <class name="com.TestNG.Oct_14_Day13_TestNG_Repeat.SoftAssertion_Concepts"/>
+      <class name="com.TestNG.Sep_30_2023_Day9_TestNG.Assertions_inTestNG"/>
+      <class name="com.TestNG.Oct_15_Day14_TestNG_Repeat_DataDrivenTesting_Properties_File.HowToReadFromPropertiesFile"/>
+      <class name="com.TestNG.Sep_30_2023_Day9_TestNG.DependenciesOnMethods"/>
+      <class name="com.TestNG.Oct_29_2023_Day18_TestNG_SuiteFiles_Sanity_Suite.Sanity_LoginTest"/>
+      <class name="com.TestNG.Sep_30_2023_Day9_TestNG.SoftAssert_TestNG"/>
+      <class name="com.TestNG.Oct_14_Day13_TestNG_Repeat.Assertions_Assert"/>
+      <class name="com.TestNG.Oct_01_2023_Day10_TestNG_DataProvider.Rules_DataProvider"/>
+      <class name="com.TestNG.Sep_24_2023_Day8_TestNGBasics.Annotations_TestNG"/>
+      <class name="com.TestNG.Oct_21_Day15_Application_Of_OOPs.LoginTest"/>
+      <class name="com.TestNG.Oct_15_Day14_TestNG_testng.xml.BatchRunning_TestCases"/>
+      <class name="com.TestNG.Oct_01_2023_Day10_TestNG_ExcelSheet_DataProvider.TestCases"/>
+      <class name="com.TestNG.Oct_14_Day13_TestNG_Repeat.How_To_Run_A_TestCase_Even_If_It_Is_Dependent_On_A_Failed_TestCase"/>
+      <class name="com.TestNG.Oct_14_Day13_TestNG_Repeat.Assignment1_RediffLogin"/>
+      <class name="com.TestNG.Oct_29_2023_Day18_TestNG_SuiteFiles_Smoke_Suite.Smoke_SearchProductTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
