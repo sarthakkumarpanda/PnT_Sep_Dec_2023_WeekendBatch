@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.Nov_05_2023_Day20_MultipleWebElements.BBC_Links_With_ResponseCode_Validation">
+      <class name="com.automation.Nov_11_2023_Day21_DynamicDropdown.AutoSuggestive_Dropdown">
         <methods>
-          <include name="bbcLinksHeader"/>
+          <include name="makeMyTrip"/>
         </methods>
-      </class> <!-- com.automation.Nov_05_2023_Day20_MultipleWebElements.BBC_Links_With_ResponseCode_Validation -->
+      </class> <!-- com.automation.Nov_11_2023_Day21_DynamicDropdown.AutoSuggestive_Dropdown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
