@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.Nov_11_2023_Day21_DynamicDropdown.AutoSuggestive_Dropdown">
+      <class name="com.automation.Nov_12_2023_Day22_WebTables.RediffWebTable_Assignment">
         <methods>
-          <include name="makeMyTrip"/>
+          <include name="assignment4_Revised"/>
         </methods>
-      </class> <!-- com.automation.Nov_11_2023_Day21_DynamicDropdown.AutoSuggestive_Dropdown -->
+      </class> <!-- com.automation.Nov_12_2023_Day22_WebTables.RediffWebTable_Assignment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
